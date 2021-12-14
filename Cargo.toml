@@ -14,11 +14,11 @@ build = "build.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-wasmer = "=2.0.0"
+wasmer = { git = "https://github.com/wasmerio/wasmer",  rev = "327192c2aece56beefbe0583ba0b2ec230c7be18", package = "wasmer" }
 
 [build-dependencies]
 skeptic = "0.13"
 
 [dev-dependencies]
 skeptic = "0.13"
-wasmer = "=2.0.0"
+wasmer = { git = "https://github.com/wasmerio/wasmer",  rev = "327192c2aece56beefbe0583ba0b2ec230c7be18", package = "wasmer" }
